@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { OpenAPIRegistry, OpenApiGeneratorV3 } from '@asteasolutions/zod-to-openapi';
 
 import { CreateUserSchema, UserSchema } from './schemas/user';
-import { CommentSchema, CreateCommentSchema, CreatePostSchema, Post, PostSchema, Comment, CreateComment, CreatePost } from './schemas/post';
+import { CommentSchema, CreateCommentSchema, CreatePostSchema, PostSchema, CreateComment, CreatePost } from './schemas/post';
 
 // Initialize Express app
 const app = express();
